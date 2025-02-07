@@ -13,59 +13,53 @@
         body {
             font-family: 'Poppins', sans-serif;
             text-align: center;
-            padding: 50px;
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             background: url('IMG_1941.png') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
 
-        /* Content Container */
-        .container {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 40px;
-            border-radius: 10px;
-            display: inline-block;
-            max-width: 400px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-        }
-
         /* Title */
         h1 {
+            font-size: 48px;
             font-weight: 600;
             margin-bottom: 20px;
         }
 
         /* Button Styling */
         .btn {
-            display: block;
+            display: inline-block;
             width: 220px;
-            margin: 15px auto;
-            padding: 15px;
+            margin: 10px;
+            padding: 12px;
             font-size: 18px;
             font-weight: 500;
             text-align: center;
             color: white;
-            background: linear-gradient(45deg, #007BFF, #0056b3);
+            border: 2px solid white;
             text-decoration: none;
             border-radius: 8px;
             transition: 0.3s ease-in-out;
         }
 
         .btn:hover {
-            background: linear-gradient(45deg, #0056b3, #003f7f);
-            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.2);
         }
     </style>
 </head>
 <body>
 
-    <!-- Download Section -->
-    <div class="container">
-        <h1>Download StarX</h1>
-        <a href="#" class="btn">Download (Direct)</a>
-        <a href="#" class="btn">Download (Linkvertise)</a>
-    </div>
+    <!-- Title -->
+    <h1>StarX</h1>
+
+    <!-- Buttons -->
+    <a href="#" class="btn">Download (Direct)</a>
+    <a href="#" class="btn">Download (Linkvertise)</a>
 
 </body>
 </html>
